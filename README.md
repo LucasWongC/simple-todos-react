@@ -9,3 +9,8 @@ Learn how to build this app by following the [Meteor Tutorial](http://www.meteor
 Read more about building apps with Meteor in the [Meteor Guide](http://guide.meteor.com).
 
 ![screenshot](screenshot.png)
+
+```bash
+# Heroku build command
+heroku buildpacks:set https://github.com/jordansissel/heroku-buildpack-meteor.git
+```
